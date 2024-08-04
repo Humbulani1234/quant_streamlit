@@ -28,7 +28,7 @@ pd.set_option("display.max_columns",50000)
 pd.set_option("display.max_rows", 500)
 pd.set_option("display.float_format", lambda x: "%.3f" %x)
 warnings.filterwarnings("ignore")
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #decimal.getcontext().prec = 4
 
